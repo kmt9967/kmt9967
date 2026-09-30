@@ -80,7 +80,7 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 ## Latest writing
 
 <!-- ARTICLES:START -->
-Refreshing…
+Technical write-ups from shipped systems are on the way. Until they are published, the [case studies](https://talalkhawaja.com/projects) are the long version.
 <!-- ARTICLES:END -->
 
 ## Recently updated repositories
