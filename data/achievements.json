@@ -1,0 +1,197 @@
+{
+  "_readme": [
+    "Source for the Achievements section of README.md. scripts/update_readme.py renders it; never edit the generated block by hand.",
+    "Only entries with \"status\": \"verified\" and a \"verified_on\" date (YYYY-MM-DD) are rendered. Anything else is ignored.",
+    "Facts come from the ecosystem source of truth (talal-teqprotech-ecosystem: data/hackathons.json, data/hackathon_platform_stats.json, docs/DECISIONS.md D-011/D-024). Never add a fact that is not evidenced there.",
+    "Platform stats are snapshots, never live counters: each one is shown with its 'Last verified' date.",
+    "Certificates: add one object per VERIFIED certificate to \"certificates\" (see _certificate_example). The section appears automatically once the list is non-empty.",
+    "People: the only collaborator who may ever be named is Aqeela Urooj, and only on entries where her involvement is evidenced (D-024). Bigger teams are counted, never named."
+  ],
+  "_certificate_example": {
+    "title": "Certificate title exactly as issued",
+    "issuer": "lablab.ai",
+    "event": "Event name",
+    "date": "YYYY-MM-DD",
+    "url": "https://… (public certificate or credential URL)",
+    "status": "verified",
+    "verified_on": "YYYY-MM-DD"
+  },
+  "highlights": [
+    {
+      "title": "Finalist — USAII Global AI Hackathon 2026",
+      "project": "CivicAI Readiness Blueprint",
+      "url": "https://talalkhawaja.com/projects/civicai-readiness-blueprint",
+      "detail": "AI decision-support dashboard for community AI readiness, with a three-phase responsible-AI roadmap and human decision points.",
+      "status": "verified",
+      "verified_on": "2026-09-27"
+    }
+  ],
+  "platform_stats": [
+    {
+      "platform": "lablab.ai",
+      "url": "https://lablab.ai/u/@kmt9967",
+      "facts": [
+        "Elite level",
+        "3,865 points",
+        "Leaderboard #12",
+        "10 events",
+        "5 submissions"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-27"
+    },
+    {
+      "platform": "Devpost",
+      "url": "https://devpost.com/Kmt9967",
+      "facts": [
+        "6 hackathons",
+        "8 projects"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-27"
+    }
+  ],
+  "hackathons": [
+    {
+      "project": "LockSmith",
+      "event": "IBM Bob 2.0 Hackathon",
+      "platform": "lablab.ai",
+      "date": "2026-09-27",
+      "result": "Submitted, results pending",
+      "team": "Solo",
+      "repo": "https://github.com/kmt9967/locksmith-ibm-bob",
+      "case_study": "https://talalkhawaja.com/projects/locksmith",
+      "submission": "https://lablab.ai/ai-hackathons/ibm-bob-2-hackathon/teqprotech/locksmith-ibm-bob-fixes-locking-db-migrations",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "DUET",
+      "event": "AI Infra Summit Hackathon",
+      "platform": "lablab.ai",
+      "date": "2026-09-16",
+      "result": "Submitted",
+      "team": "Team of 4",
+      "repo": "https://github.com/kmt9967/duet",
+      "case_study": "https://talalkhawaja.com/projects/duet",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "NeighborOps AI",
+      "event": "Agents for Humans Hackathon (Good Neighbor Agents track)",
+      "platform": "Devpost",
+      "date": "2026-09-14",
+      "result": "Submitted, results pending",
+      "team": "Team of 4, with Aqeela Urooj",
+      "repo": "https://github.com/kmt9967/neighborops-ai",
+      "case_study": "https://talalkhawaja.com/projects/neighborops-ai",
+      "submission": "https://devpost.com/software/neighborops-ai",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "ThesisCircuit",
+      "event": "Alpaca AI Trading Agents Hackathon",
+      "platform": "lablab.ai",
+      "date": "2026-09-04",
+      "result": "Submitted",
+      "team": "Team",
+      "repo": "https://github.com/kmt9967/thesiscircuit",
+      "case_study": "https://talalkhawaja.com/projects/thesiscircuit",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "ClientOps Memory AI",
+      "event": "CockroachDB × AWS Hackathon: Build with Agentic Memory",
+      "platform": "Devpost",
+      "date": "2026-08-15",
+      "result": "Submitted",
+      "team": "With Aqeela Urooj",
+      "case_study": "https://talalkhawaja.com/projects/clientops-memory-ai",
+      "submission": "https://devpost.com/software/clientops-memory-ai",
+      "status": "verified",
+      "verified_on": "2026-09-29",
+      "_note": "Repo link omitted while the repo is under review; add \"repo\" back once it is cleared for promotion."
+    },
+    {
+      "project": "LaunchMap AI",
+      "event": "AI Factory (native.builder) Hackathon",
+      "platform": "lablab.ai",
+      "date": "2026-08-07",
+      "result": "Submitted",
+      "team": "With Aqeela Urooj",
+      "repo": "https://github.com/kmt9967/launchmap-ai",
+      "case_study": "https://talalkhawaja.com/projects/launchmap-ai",
+      "submission": "https://lablab.ai/submissions/oro4wak74rts313i5diipx0z",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "BrandPilot Local",
+      "event": "AMD AI DevMaster Hackathon (Track 1, Multimodal)",
+      "platform": "GitHub",
+      "date": "2026-08-05",
+      "result": "Submitted",
+      "team": "With Aqeela Urooj",
+      "repo": "https://github.com/kmt9967/brandpilot-local",
+      "case_study": "https://talalkhawaja.com/projects/brandpilot-local",
+      "submission": "https://github.com/AMD-DEV-CONTEST/Radeon-hackathon-2026-07/pull/80",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "QuotePilot AI",
+      "event": "Global AI Hackathon Series with Qwen Cloud (Track 4)",
+      "platform": "Devpost",
+      "date": "2026-07-19",
+      "result": "Submitted",
+      "team": "With Aqeela Urooj",
+      "repo": "https://github.com/kmt9967/quotepilot-ai",
+      "case_study": "https://talalkhawaja.com/projects/quotepilot-ai",
+      "submission": "https://devpost.com/software/quotepilot-ai",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "ScopeGuard AI",
+      "event": "OpenAI Build Week (Work & Productivity)",
+      "platform": "Devpost",
+      "date": "2026-07-18",
+      "result": "Submitted",
+      "team": "With Aqeela Urooj",
+      "repo": "https://github.com/kmt9967/scopeguard-ai",
+      "case_study": "https://talalkhawaja.com/projects/scopeguard-ai",
+      "submission": "https://devpost.com/software/scopeguard-ai",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "CaptionForge AI",
+      "event": "AMD Developer Hackathon: ACT II (Track 2)",
+      "platform": "lablab.ai",
+      "date": "2026-07-13",
+      "result": "Submitted",
+      "team": "Team of 6, with Aqeela Urooj",
+      "repo": "https://github.com/kmt9967/captionforge-ai",
+      "case_study": "https://talalkhawaja.com/projects/captionforge-ai",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "project": "CivicAI Readiness Blueprint",
+      "event": "USAII Global AI Hackathon 2026",
+      "platform": "Devpost",
+      "date": "2026-06-21",
+      "result": "Finalist",
+      "team": "With Aqeela Urooj",
+      "repo": "https://github.com/kmt9967/civicai-readiness-blueprint",
+      "case_study": "https://talalkhawaja.com/projects/civicai-readiness-blueprint",
+      "submission": "https://devpost.com/software/civicai-readiness-blueprint",
+      "status": "verified",
+      "verified_on": "2026-09-29"
+    }
+  ],
+  "certificates": []
+}

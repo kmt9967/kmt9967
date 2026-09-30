@@ -1,0 +1,55 @@
+{
+  "_readme": [
+    "Settings for scripts/update_readme.py (the daily 'Update README' workflow).",
+    "featured: the first entry with active=true is shown. Facts must match the ecosystem source of truth.",
+    "repos.exclude: never listed in 'Recently updated'. Legacy repos (D-021) must stay here permanently.",
+    "banned_term_sha256: SHA-256 of lower-case words/domains that must never appear; any generated line containing one is dropped (hashed so the terms themselves are not published)."
+  ],
+  "user": "kmt9967",
+  "site": "https://talalkhawaja.com",
+  "articles": {
+    "sitemap": "https://talalkhawaja.com/sitemap.xml",
+    "path_prefixes": ["/articles/", "/blog/"],
+    "limit": 5,
+    "empty_text": "Technical write-ups from shipped systems are on the way. Until they are published, the [case studies](https://talalkhawaja.com/projects) are the long version."
+  },
+  "featured": [
+    {
+      "active": true,
+      "title": "CivicAI Readiness Blueprint",
+      "badge": "Finalist — USAII Global AI Hackathon 2026",
+      "summary": "An AI decision-support dashboard for community AI readiness. Transparent local scoring finds the gaps, scenarios can be compared side by side, and the output is a three-phase responsible-AI roadmap with explicit human decision points. The model advises; people decide.",
+      "stack": ["Next.js", "TypeScript", "OpenAI SDK", "Recharts"],
+      "repo": "kmt9967/civicai-readiness-blueprint",
+      "links": [
+        {"label": "Case study", "url": "https://talalkhawaja.com/projects/civicai-readiness-blueprint"},
+        {"label": "Live demo", "url": "https://civicai-readiness-blueprint.vercel.app"},
+        {"label": "Devpost", "url": "https://devpost.com/software/civicai-readiness-blueprint"}
+      ]
+    }
+  ],
+  "repos": {
+    "limit": 6,
+    "require_description": true,
+    "exclude": {
+      "kmt9967": "profile repo",
+      "php-mailer-laravel": "LEGACY, excluded from portfolio (D-021)",
+      "Cosmetic-Ecommerce-Website": "LEGACY, excluded from portfolio (D-021)",
+      "KhidmatConnect-AI": "not promoted yet (under review)",
+      "clientops-memory-ai": "not promoted yet (under review)",
+      "Unique-File-Manager": "class C legacy code",
+      "PHP-Mailer-in-JumpingSite": "class C, archive candidate",
+      "csv-files-filteration-python-bot": "class C, archive candidate",
+      "adminlte": "template, archive candidate",
+      "bootstrap-template-admin": "template, archive candidate",
+      "shtudy": "archive candidate",
+      "Flask": "archive candidate",
+      "claude-powered-wordpress-site-manager": "empty repo",
+      "Radeon-hackathon-2026-07": "fork used only for a submission PR"
+    }
+  },
+  "people_links": {
+    "Aqeela Urooj": "https://github.com/AqeelaUrooj"
+  },
+  "banned_term_sha256": ["ba94f3933307554e5edb84cc6ed8cfc3eaa444ca747039904460dc7fc51cc56b", "a1586a25716693562460e9c563fc4bb29e6f70c06246c91249b93e8b26307324"]
+}
