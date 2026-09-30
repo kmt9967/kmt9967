@@ -10,7 +10,8 @@
   <a href="https://talalkhawaja.com"><b>talalkhawaja.com</b></a> ·
   <a href="https://teqprotech.com">teqprotech.com</a> ·
   <a href="https://www.linkedin.com/in/talalkhawaja/">LinkedIn</a> ·
-  <a href="https://devpost.com/Kmt9967">Devpost</a> ·
+  <a href="https://lablab.ai/u/@kmt9967">lablab.ai</a> ·
+  <a href="https://orcid.org/0009-0000-3258-1557">ORCID</a>
   <a href="https://lablab.ai/u/@kmt9967">lablab.ai</a>
 </p>
 
