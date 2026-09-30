@@ -55,7 +55,7 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 
 | Platform | Snapshot | Last verified |
 |---|---|---|
-| [lablab.ai](https://lablab.ai/u/@kmt9967) | Elite level · 3,865 points · Leaderboard #12 · 10 events · 5 submissions | 2026-09-27 |
+| [lablab.ai](https://lablab.ai/u/@kmt9967) | Elite level · 3,865 points · Leaderboard #15 · 10 events · 5 submissions | 2026-09-30 |
 | [Devpost](https://devpost.com/Kmt9967) | 6 hackathons · 8 projects | 2026-09-27 |
 
 <sub>Platform numbers are dated snapshots, not live counters.</sub>
@@ -75,6 +75,14 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 | **ScopeGuard AI** | OpenAI Build Week (Work & Productivity) · Devpost · 18 Jul 2026 | Submitted | With [Aqeela Urooj](https://github.com/AqeelaUrooj) | [Repo](https://github.com/kmt9967/scopeguard-ai) · [Case study](https://talalkhawaja.com/projects/scopeguard-ai) · [Submission](https://devpost.com/software/scopeguard-ai) |
 | **CaptionForge AI** | AMD Developer Hackathon: ACT II (Track 2) · lablab.ai · 13 Jul 2026 | Submitted | Team of 6, with [Aqeela Urooj](https://github.com/AqeelaUrooj) | [Repo](https://github.com/kmt9967/captionforge-ai) · [Case study](https://talalkhawaja.com/projects/captionforge-ai) |
 | **CivicAI Readiness Blueprint** | USAII Global AI Hackathon 2026 · Devpost · 21 Jun 2026 | **Finalist** | With [Aqeela Urooj](https://github.com/AqeelaUrooj) | [Repo](https://github.com/kmt9967/civicai-readiness-blueprint) · [Case study](https://talalkhawaja.com/projects/civicai-readiness-blueprint) · [Submission](https://devpost.com/software/civicai-readiness-blueprint) |
+
+**Certificates**
+
+- [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/ibm-bob-2-hackathon/certificate) · lablab.ai · IBM Bob 2.0 hackathon · 28 Sep 2026 <sub>(last verified 2026-09-30)</sub>
+- [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/ai-infra-summit-hackathon/certificate) · lablab.ai · AI Infra Summit Hackathon · 22 Sep 2026 <sub>(last verified 2026-09-30)</sub>
+- [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/alpaca-ai-trading-agents-hackathon/certificate) · lablab.ai · Alpaca AI Trading Agents Hackathon · 14 Sep 2026 <sub>(last verified 2026-09-30)</sub>
+- [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/amd-developer-hackathon-act-ii/certificate) · lablab.ai · AMD Developer Hackathon: ACT II · 13 Aug 2026 <sub>(last verified 2026-09-30)</sub>
+- [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/nativebuilder-build-without-limits/certificate) · lablab.ai · AI Factory · 13 Aug 2026 <sub>(last verified 2026-09-30)</sub>
 <!-- ACHIEVEMENTS:END -->
 
 ## Latest writing
