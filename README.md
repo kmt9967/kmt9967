@@ -97,12 +97,12 @@ Technical write-ups from shipped systems are on the way. Until they are publishe
 <!-- REPOS:START -->
 | Repository | What it is | Language | Updated |
 |---|---|---|---|
+| [dark-factory-pocketful](https://github.com/kmt9967/dark-factory-pocketful) | A four-seat BAND Desktop dark factory: one task message → pocketful payments service, stages 1–4, built, reviewed and verified autonomously. | JavaScript | 5 Oct 2026 |
 | [scopeguard-ai](https://github.com/kmt9967/scopeguard-ai) · [demo](https://scopeguard-ai-rust.vercel.app) | Evidence-backed scope analysis and human approval workspace, built with Codex using GPT-5.6. | TypeScript | 28 Sep 2026 |
 | [neighborops-ai](https://github.com/kmt9967/neighborops-ai) · [demo](https://neighborops-ai.vercel.app) | Community-pantry coordination: a Strands agent handles routine requests while staff decide how scarce resources are used. Agents for… | Python | 28 Sep 2026 |
 | [quotepilot-ai](https://github.com/kmt9967/quotepilot-ai) · [case study](https://talalkhawaja.com/projects/quotepilot-ai) | Autonomous quotation and customer-intake agent powered by Qwen Cloud and Alibaba Cloud Function Compute | TypeScript | 28 Sep 2026 |
 | [thesiscircuit](https://github.com/kmt9967/thesiscircuit) · [demo](https://thesiscircuit.vercel.app) | Paper-only autonomous options agents with deterministic risk vetoes and replayable evidence. | Python | 28 Sep 2026 |
 | [locksmith-ibm-bob](https://github.com/kmt9967/locksmith-ibm-bob) · [demo](https://locksmith-ibm-bob.vercel.app) | LockSmith — catch PostgreSQL migrations that lock production; IBM Bob custom mode + parallel subagents rewrite them into verified… | TypeScript | 28 Sep 2026 |
-| [duet](https://github.com/kmt9967/duet) · [demo](https://duet-alpha-ebon.vercel.app) | Voice-first bimanual manipulation simulator. Speak a dinner-table instruction; two SO-101 arms plan, hand off, and execute it. | TypeScript | 16 Sep 2026 |
 <!-- REPOS:END -->
 
 More write-ups and case studies: [talalkhawaja.com/projects](https://talalkhawaja.com/projects)
