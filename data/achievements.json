@@ -53,6 +53,20 @@
   ],
   "hackathons": [
     {
+      "project": "KhidmatConnect AI",
+      "event": "Alibaba Cloud AI Hackathon Pakistan 2026 (Open Innovation)",
+      "platform": "Organiser portal",
+      "date": "2026-10-03",
+      "result": "Participation — Karachi Regional Technical Evaluation",
+      "team": "Team (team lead)",
+      "repo": "https://github.com/kmt9967/KhidmatConnect-AI",
+      "case_study": "https://talalkhawaja.com/projects/khidmatconnect-ai",
+      "certificate": "https://aihackathon.cognix-pk.com/certificate/99JJ-M3F0-Z4VG",
+      "status": "verified",
+      "verified_on": "2026-10-08",
+      "_note": "D-038: Certificate of Participation KHI-03OCT26-P00542-1 (verification page, 2026-10-08). Participation only, never a placement. Team neutral: Talal is 'Team lead'; nobody else is evidenced (D-024)."
+    },
+    {
       "project": "LockSmith",
       "event": "IBM Bob 2.0 Hackathon",
       "platform": "lablab.ai",
@@ -194,6 +208,15 @@
     }
   ],
   "certificates": [
+    {
+      "title": "Certificate of Participation — Karachi Regional Technical Evaluation",
+      "issuer": "Alibaba Cloud AI Hackathon Pakistan 2026",
+      "event": "KhidmatConnect AI (P00542, Open Innovation), NASTP Karachi",
+      "date": "2026-10-03",
+      "url": "https://aihackathon.cognix-pk.com/certificate/99JJ-M3F0-Z4VG",
+      "status": "verified",
+      "verified_on": "2026-10-08"
+    },
     {
       "title": "Certificate of Completion (Participant)",
       "issuer": "lablab.ai",

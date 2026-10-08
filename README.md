@@ -65,6 +65,7 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 
 | Project | Event | Result | Team | Links |
 |---|---|---|---|---|
+| **KhidmatConnect AI** | Alibaba Cloud AI Hackathon Pakistan 2026 (Open Innovation) · Organiser portal · 3 Oct 2026 | Participation — Karachi Regional Technical Evaluation | Team (team lead) | [Repo](https://github.com/kmt9967/KhidmatConnect-AI) · [Case study](https://talalkhawaja.com/projects/khidmatconnect-ai) · [Certificate](https://aihackathon.cognix-pk.com/certificate/99JJ-M3F0-Z4VG) |
 | **LockSmith** | IBM Bob 2.0 Hackathon · lablab.ai · 27 Sep 2026 | Submitted, results pending | Solo | [Repo](https://github.com/kmt9967/locksmith-ibm-bob) · [Case study](https://talalkhawaja.com/projects/locksmith) · [Submission](https://lablab.ai/ai-hackathons/ibm-bob-2-hackathon/teqprotech/locksmith-ibm-bob-fixes-locking-db-migrations) |
 | **DUET** | AI Infra Summit Hackathon · lablab.ai · 16 Sep 2026 | Submitted | Team of 4 | [Repo](https://github.com/kmt9967/duet) · [Case study](https://talalkhawaja.com/projects/duet) |
 | **NeighborOps AI** | Agents for Humans Hackathon (Good Neighbor Agents track) · Devpost · 14 Sep 2026 | Submitted, results pending | Team of 4, with [Aqeela Urooj](https://github.com/AqeelaUrooj) | [Repo](https://github.com/kmt9967/neighborops-ai) · [Case study](https://talalkhawaja.com/projects/neighborops-ai) · [Submission](https://devpost.com/software/neighborops-ai) |
@@ -79,6 +80,7 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 
 **Certificates**
 
+- [Certificate of Participation — Karachi Regional Technical Evaluation](https://aihackathon.cognix-pk.com/certificate/99JJ-M3F0-Z4VG) · Alibaba Cloud AI Hackathon Pakistan 2026 · KhidmatConnect AI (P00542, Open Innovation), NASTP Karachi · 3 Oct 2026 <sub>(last verified 2026-10-08)</sub>
 - [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/ibm-bob-2-hackathon/certificate) · lablab.ai · IBM Bob 2.0 hackathon · 28 Sep 2026 <sub>(last verified 2026-09-30)</sub>
 - [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/ai-infra-summit-hackathon/certificate) · lablab.ai · AI Infra Summit Hackathon · 22 Sep 2026 <sub>(last verified 2026-09-30)</sub>
 - [Certificate of Completion (Participant)](https://lablab.ai/u/@kmt9967/ai-hackathons/alpaca-ai-trading-agents-hackathon/certificate) · lablab.ai · Alpaca AI Trading Agents Hackathon · 14 Sep 2026 <sub>(last verified 2026-09-30)</sub>

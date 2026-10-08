@@ -156,6 +156,8 @@ def build_achievements(cfg, data):
                 links.append(f"[Case study]({h['case_study']})")
             if h.get("submission"):
                 links.append(f"[Submission]({h['submission']})")
+            if h.get("certificate"):
+                links.append(f"[Certificate]({h['certificate']})")
             event = f"{md_escape(h['event'])} · {h['platform']} · {fmt_date(h['date'])}"
             team = link_people(md_escape(h.get("team", "")), people)
             lines.append(f"| **{md_escape(h['project'])}** | {event} | {result} | {team} | {' · '.join(links)} |")
