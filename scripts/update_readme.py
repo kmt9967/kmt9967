@@ -5,6 +5,7 @@ Sections live between marker comments:
     <!-- FEATURED:START --> ... <!-- FEATURED:END -->
     <!-- ACHIEVEMENTS:START --> ... <!-- ACHIEVEMENTS:END -->
     <!-- ARTICLES:START --> ... <!-- ARTICLES:END -->
+    <!-- RESOURCES:START --> ... <!-- RESOURCES:END -->
     <!-- REPOS:START --> ... <!-- REPOS:END -->
 
 Each section is built independently. If building one fails (network error,
@@ -182,11 +183,19 @@ def meta_content(page, key):
 
 
 def build_articles(cfg):
-    acfg = cfg["articles"]
+    return build_sitemap_list(cfg["articles"], cfg["site"])
+
+
+def build_resources(cfg):
+    """Free resources on teqprotech.com: only pages the live sitemap lists (indexable), newest first."""
+    return build_sitemap_list(cfg["resources"], cfg["resources"]["site"])
+
+
+def build_sitemap_list(acfg, site):
     xml = fetch(acfg["sitemap"], "application/xml")
     ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     root = ET.fromstring(xml)
-    site = cfg["site"].rstrip("/")
+    site = site.rstrip("/")
     candidates = []
     for url in root.findall("s:url", ns):
         loc = (url.findtext("s:loc", default="", namespaces=ns) or "").strip()
@@ -206,15 +215,15 @@ def build_articles(cfg):
             title = html.unescape(m.group(1)).strip() if m else None
         if not title:
             raise RuntimeError(f"no title on {loc}")
-        title = re.sub(r"\s+[|·—-]\s+Talal Khawaja$", "", title)
-        published = meta_content(page, "article:published_time") or lastmod
+        title = re.sub(r"\s+[|·—-]\s+(Talal Khawaja|Teqprotech)$", "", title)
+        published = (meta_content(page, "article:published_time") or lastmod) if acfg.get("show_dates", True) else lastmod
         desc = meta_content(page, "description") or ""
         posts.append((published or "", title, loc, desc))
     posts.sort(reverse=True)
     lines = []
     for published, title, loc, desc in posts[: acfg["limit"]]:
         line = f"- [{md_escape(title)}]({loc})"
-        if published:
+        if published and acfg.get("show_dates", True):
             line += f" · {fmt_date(published)}"
         if desc:
             line += f"<br><sub>{md_escape(html.escape(desc, quote=False))}</sub>"
@@ -288,6 +297,7 @@ def main():
         ("FEATURED", lambda: build_featured(cfg, token, args.offline), False),
         ("ACHIEVEMENTS", lambda: build_achievements(cfg, achievements), False),
         ("ARTICLES", lambda: build_articles(cfg), True),
+        ("RESOURCES", lambda: build_resources(cfg), True),
         ("REPOS", lambda: build_repos(cfg, token, featured.get("repo")), True),
     ]
     failures = 0

@@ -108,6 +108,19 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 | [locksmith-ibm-bob](https://github.com/kmt9967/locksmith-ibm-bob) · [demo](https://locksmith-ibm-bob.vercel.app) | LockSmith — catch PostgreSQL migrations that lock production; IBM Bob custom mode + parallel subagents rewrite them into verified… | TypeScript | 28 Sep 2026 |
 <!-- REPOS:END -->
 
+## Free resources from Teqprotech
+
+Checklists and workflow maps for CRM, GoHighLevel, automation and SEO work. Free to read and print, no email needed.
+
+<!-- RESOURCES:START -->
+- [Technical SEO Checklist for Service Websites](https://teqprotech.com/resources/website-technical-seo-audit-checklist)<br><sub>A printable technical SEO checklist for service-business websites: robots, sitemaps, canonicals, redirects, schema, speed, mobile, analytics and lead events.</sub>
+- [Roofing CRM Workflow Pattern Map (Printable)](https://teqprotech.com/resources/roofing-crm-workflow-map)<br><sub>A printable roofing CRM pattern: lead sources, speed-to-lead, inspection, estimate, job, review and attribution, with owners, fields and failure points.</sub>
+- [Real Estate Lead Routing Workflow (Printable)](https://teqprotech.com/resources/realtor-lead-routing-workflow)<br><sub>A printable real estate lead routing pattern: portals, IDX and ad leads, dedupe, round-robin and territory rules, accept timers, reassignment and nurture.</sub>
+- [GoHighLevel Automation Audit Checklist](https://teqprotech.com/resources/gohighlevel-automation-audit-checklist)<br><sub>A printable GoHighLevel audit checklist: triggers, filters, wait steps, timezones, loops, Audit Logs, notifications, calendars and reporting, with how to check.</sub>
+- [Facebook Lead to Booked Appointment Template](https://teqprotech.com/resources/facebook-lead-to-appointment)<br><sub>Build template for Meta lead ads into a CRM: field mapping, dedupe, consent notes, the first five minutes, missed-call fallback and a launch QA checklist.</sub>
+- [CRM Automation Failure Checklist](https://teqprotech.com/resources/crm-automation-failure-checklist)<br><sub>A printable CRM automation failure checklist: expired tokens, webhook retries, rate limits, duplicates, timezones, field-mapping drift, alerts and audit trails.</sub>
+<!-- RESOURCES:END -->
+
 More write-ups and case studies: [talalkhawaja.com/projects](https://talalkhawaja.com/projects)
 
 ## How I build
@@ -118,6 +131,6 @@ More write-ups and case studies: [talalkhawaja.com/projects](https://talalkhawaj
 
 ## Contact
 
-Business enquiries: [info@teqprotech.com](mailto:info@teqprotech.com) · Portfolio: [talalkhawaja.com](https://talalkhawaja.com)
+Business enquiries: [Book a 30-minute discovery call](https://teqprotech.com/book) · [info@teqprotech.com](mailto:info@teqprotech.com) · Portfolio: [talalkhawaja.com](https://talalkhawaja.com)
 
-<sub>The Featured, Achievements, Latest writing and Recently updated sections are refreshed daily by a GitHub Action from <a href="data/achievements.json">verified data</a>, the talalkhawaja.com sitemap and the GitHub API.</sub>
+<sub>The Featured, Achievements, Latest writing, Free resources and Recently updated sections are refreshed daily by a GitHub Action from <a href="data/achievements.json">verified data</a>, the talalkhawaja.com and teqprotech.com sitemaps and the GitHub API.</sub>
