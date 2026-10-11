@@ -95,6 +95,8 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 - [What LockSmith checks before a PostgreSQL migration ships](https://talalkhawaja.com/blog/what-locksmith-checks-before-a-migration-ships) · 7 Oct 2026<br><sub>The PostgreSQL migration risks LockSmith flags, how it proves each lock in embedded Postgres, and why its blocking-time numbers are labelled as estimates.</sub>
 <!-- ARTICLES:END -->
 
+All writing: [articles](https://talalkhawaja.com/articles) · [blog](https://talalkhawaja.com/blog)
+
 ## Recently updated repositories
 
 <!-- REPOS:START -->
@@ -121,7 +123,7 @@ Checklists and workflow maps for CRM, GoHighLevel, automation and SEO work. Free
 - [CRM Automation Failure Checklist](https://teqprotech.com/resources/crm-automation-failure-checklist)<br><sub>A printable CRM automation failure checklist: expired tokens, webhook retries, rate limits, duplicates, timezones, field-mapping drift, alerts and audit trails.</sub>
 <!-- RESOURCES:END -->
 
-More write-ups and case studies: [talalkhawaja.com/projects](https://talalkhawaja.com/projects)
+All free resources: [teqprotech.com/resources](https://teqprotech.com/resources) · More write-ups and case studies: [talalkhawaja.com/projects](https://talalkhawaja.com/projects)
 
 ## How I build
 
