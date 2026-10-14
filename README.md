@@ -91,6 +91,7 @@ An AI decision-support dashboard for community AI readiness. Transparent local s
 ## Latest writing
 
 <!-- ARTICLES:START -->
+- [Human approval is an architecture decision](https://talalkhawaja.com/articles/human-approval-is-an-architecture-decision) · 13 Oct 2026<br><sub>What QuotePilot, ScopeGuard, NeighborOps and ThesisCircuit taught me about human-in-the-loop AI agents: authority belongs in code and data, not a button.</sub>
 - [Let the model reason, not promise: building QuotePilot AI](https://talalkhawaja.com/articles/quotepilot-human-governed-quoting-agent) · 7 Oct 2026<br><sub>How QuotePilot AI keeps Qwen away from prices: schema-checked analysis, deterministic quoting tools and a mandatory human approval step before anything is sent.</sub>
 - [What LockSmith checks before a PostgreSQL migration ships](https://talalkhawaja.com/blog/what-locksmith-checks-before-a-migration-ships) · 7 Oct 2026<br><sub>The PostgreSQL migration risks LockSmith flags, how it proves each lock in embedded Postgres, and why its blocking-time numbers are labelled as estimates.</sub>
 <!-- ARTICLES:END -->
